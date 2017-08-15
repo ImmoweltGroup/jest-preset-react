@@ -1,0 +1,28 @@
+{
+  "name": "@immowelt/jest-preset-react",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
+  "license": "MIT",
+  "description": "Common configuration options for Jest in React environments.",
+  "main": "jest-preset.json",
+  "scripts": {
+    "test": "npm run lint && npm run jest:coverage",
+    "lint": "eslint src",
+    "jest": "jest",
+    "jest:watch": "npm run jest -- --watch",
+    "jest:coverage": "npm run jest -- --coverage"
+  },
+  "engines": {
+    "node": ">=8.2.0"
+  },
+  "devDependencies": {
+    "@immowelt/eslint-config-immowelt-react": "^1.0.0",
+    "@immowelt/jest-preset-node": "^1.0.0",
+    "eslint": "4.4.1",
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "preset": "@immowelt/jest-preset-node"
+  }
+}
