@@ -1,4 +1,6 @@
 # @immowelt/jest-preset-react
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltHH/jest-preset-react.svg)](https://greenkeeper.io/)
 > Common configuration options for Jest in React environments.
 
 ## Usage
