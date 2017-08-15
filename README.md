@@ -19,7 +19,7 @@ Then add the following contents into the `package.json`:
 {
   ...,
   "jest": {
-    "preset": "jest-preset-angular"
+    "preset": "@immowelt/jest-preset-react"
   },
   ...
 }
