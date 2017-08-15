@@ -14,7 +14,8 @@
     "jest:coverage": "npm run jest -- --coverage"
   },
   "engines": {
-    "node": ">=8.2.0"
+    "node": ">=8.2.0",
+    "npm": ">=5.3.0"
   },
   "devDependencies": {
     "@immowelt/eslint-config-immowelt-react": "^1.0.0",
