@@ -1,9 +1,10 @@
 # @immowelt/jest-preset-react
 
+[![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltHH/jest-preset-react.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/ImmoweltHH/jest-preset-react.svg?branch=master)](https://travis-ci.org/ImmoweltHH/jest-preset-react)
-[![Dependency Status](https://david-dm.org/ImmoweltHH/jest-preset-react.svg)](https://david-dm.org/ImmoweltHH/jest-preset-react)
-[![devDependency Status](https://david-dm.org/ImmoweltHH/jest-preset-react/dev-status.svg)](https://david-dm.org/ImmoweltHH/jest-preset-react#info=devDependencies&view=table)
+[![Build Status](https://travis-ci.org/ImmoweltGroup/jest-preset-react.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/jest-preset-react)
+[![Dependency Status](https://david-dm.org/ImmoweltGroup/jest-preset-react.svg)](https://david-dm.org/ImmoweltGroup/jest-preset-react)
+[![devDependency Status](https://david-dm.org/ImmoweltGroup/jest-preset-react/dev-status.svg)](https://david-dm.org/ImmoweltGroup/jest-preset-react#info=devDependencies&view=table)
 
 > Common configuration options for Jest in React environments.
 
