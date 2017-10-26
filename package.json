@@ -37,8 +37,14 @@
     "prettier": "^1.6.1",
     "semantic-release": "^8.0.0"
   },
+  "peerDependencies": {
+    "jest": "^21.0.2",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2"
+  },
   "jest": {
-    "preset": "@immowelt/jest-preset-node"
+    "preset": "@immowelt/jest-preset-node",
+    "coveragePathIgnorePatterns": ["src/setupFiles/*"]
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,5 @@
 {
-  "collectCoverageFrom": [
-    "src/**/*.js"
-  ],
+  "collectCoverageFrom": ["src/**/*.js"],
   "coverageThreshold": {
     "global": {
       "branches": 70,
@@ -10,23 +8,21 @@
       "statements": 70
     }
   },
-  "testMatch": [
-    "<rootDir>/src/**/?(*.)spec.js"
+  "setupFiles": [
+    "<rootDir>/node_modules/@immowelt/jest-preset-react/src/setupFiles/enzyme.js"
   ],
-  "transformIgnorePatterns": [
-    "node_modules/(?!@immowelt)"
-  ],
+  "testMatch": ["<rootDir>/src/**/?(*.)spec.js"],
+  "transformIgnorePatterns": ["node_modules/(?!@immowelt)"],
   "testEnvironment": "node",
   "testURL": "http://localhost",
   "transform": {
     "^.+\\.js$": "babel-jest",
-    "^.+\\.css$": "<rootDir>/node_modules/@immowelt/jest-preset-react/src/transforms/css.js",
-    "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/@immowelt/jest-preset-react/src/transforms/file.js"
+    "^.+\\.css$":
+      "<rootDir>/node_modules/@immowelt/jest-preset-react/src/transforms/css.js",
+    "^(?!.*\\.(js|jsx|css|json)$)":
+      "<rootDir>/node_modules/@immowelt/jest-preset-react/src/transforms/file.js"
   },
-  "moduleFileExtensions": [
-    "js",
-    "json"
-  ],
+  "moduleFileExtensions": ["js", "json"],
   "moduleNameMapper": {
     "^react-native$": "react-native-web"
   }
