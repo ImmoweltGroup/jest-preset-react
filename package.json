@@ -38,9 +38,9 @@
     "semantic-release": "^8.0.0"
   },
   "peerDependencies": {
-    "jest": "^21.0.2",
     "enzyme": "^3.1.0",
-    "enzyme-adapter-react-16": "^1.0.2"
+    "enzyme-adapter-react-16": "^1.0.2",
+    "jest": "^21.0.2"
   },
   "jest": {
     "preset": "@immowelt/jest-preset-node",
@@ -53,5 +53,8 @@
   "release": {
     "analyzeCommits": "@inkdpixels/commit-analyzer",
     "generateNotes": "@inkdpixels/release-notes-generator"
+  },
+  "dependencies": {
+    "babel-jest": "^21.2.0"
   }
 }
