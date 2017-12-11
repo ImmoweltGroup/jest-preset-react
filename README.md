@@ -1,10 +1,10 @@
 # @immowelt/jest-preset-react
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltGroup/jest-preset-react.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ImmoweltGroup/jest-preset-react.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/jest-preset-react)
 [![Dependency Status](https://david-dm.org/ImmoweltGroup/jest-preset-react.svg)](https://david-dm.org/ImmoweltGroup/jest-preset-react)
 [![devDependency Status](https://david-dm.org/ImmoweltGroup/jest-preset-react/dev-status.svg)](https://david-dm.org/ImmoweltGroup/jest-preset-react#info=devDependencies&view=table)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > Common configuration options for Jest in React environments.
