@@ -13,12 +13,14 @@
     "jest": "jest",
     "jest:watch": "npm run jest -- --watch",
     "jest:coverage": "npm run jest -- --coverage",
-    "semantic-release":
-      "semantic-release pre && npm publish --access=public && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post",
     "precommit": "lint-staged && npm test"
   },
   "lint-staged": {
-    "**/*.{js,json,css}": ["prettier --write", "git add"]
+    "**/*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.2.0",
@@ -44,7 +46,9 @@
   },
   "jest": {
     "preset": "@immowelt/jest-preset-node",
-    "coveragePathIgnorePatterns": ["src/setupFiles/*"]
+    "coveragePathIgnorePatterns": [
+      "src/setupFiles/*"
+    ]
   },
   "repository": {
     "type": "git",
