@@ -33,7 +33,7 @@
     "@inkdpixels/release-notes-generator": "1.0.1",
     "eslint": "4.18.1",
     "husky": "0.14.3",
-    "jest": "22.1.4",
+    "jest": "22.4.0",
     "lint-staged": "6.1.1",
     "prettier": "1.10.2",
     "semantic-release": "^8.0.0"
@@ -41,7 +41,7 @@
   "peerDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
-    "jest": "^21.0.2"
+    "jest": "^22.0.0"
   },
   "jest": {
     "preset": "@immowelt/jest-preset-node",
