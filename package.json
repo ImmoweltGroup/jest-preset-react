@@ -31,7 +31,7 @@
     "@immowelt/styleguide-javascript": "1.0.11",
     "@inkdpixels/commit-analyzer": "1.0.1",
     "@inkdpixels/release-notes-generator": "1.0.1",
-    "eslint": "4.19.1",
+    "eslint": "5.1.0",
     "husky": "0.14.3",
     "jest": "23.4.0",
     "lint-staged": "6.1.1",
