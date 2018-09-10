@@ -58,6 +58,6 @@
     "generateNotes": "@inkdpixels/release-notes-generator"
   },
   "dependencies": {
-    "babel-jest": "^22.0.0"
+    "babel-jest": "^23.0.0"
   }
 }
