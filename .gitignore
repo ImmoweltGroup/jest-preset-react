@@ -1,8 +1,3 @@
-node_modules
-coverage
-
-# Ignore the symlink ".editorconfig" from the @immowelt/styleguide-javascript package.
-.editorconfig
-
-# Ignore the symlink ".prettierrc" from the @immowelt/styleguide-javascript package.
-.prettierrc
+/.idea/
+/node_modules/
+/coverage/

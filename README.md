@@ -10,9 +10,11 @@
 > Common configuration options for Jest in React environments.
 
 ## Usage
+
 If you want to use the  `@immowelt/jest-preset-react`, you can install it by executing:
+
 ```bash
-npm i -D @immowelt/jest-preset-react
+yarn add @immowelt/jest-preset-react --dev
 ```
 
 Then add the following contents into the `package.json`:

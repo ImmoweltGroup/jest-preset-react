@@ -6,58 +6,75 @@
   "license": "MIT",
   "description": "Common configuration options for Jest in React environments.",
   "main": "jest-preset.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmoweltGroup/jest-preset-react.git"
+  },
   "scripts": {
-    "test": "yarn run lint && yarn run jest:coverage",
+    "test": "jest",
     "lint": "eslint src",
     "prettier": "prettier --write src/**/*.js",
-    "jest": "jest",
-    "jest:watch": "yarn run jest -- --watch",
-    "jest:coverage": "yarn run jest -- --coverage",
-    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post",
-    "precommit": "lint-staged && npm test"
+    "release": "semantic-release"
   },
-  "lint-staged": {
-    "**/*.{js,json,css}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
+  "files": [
+    "jest-preset.json"
+  ],
   "engines": {
-    "node": ">=8.2.0"
+    "node": ">=8.11.4",
+    "yarn": ">=1.6.0"
   },
   "devDependencies": {
-    "@immowelt/eslint-config-immowelt-react": "2.0.4",
-    "@immowelt/jest-preset-node": "1.0.1",
-    "@immowelt/styleguide-javascript": "1.0.11",
-    "@inkdpixels/commit-analyzer": "1.0.1",
-    "@inkdpixels/release-notes-generator": "1.0.1",
+    "@immowelt/eslint-config-immowelt-react": "2.1.1",
+    "@immowelt/jest-preset-node": "1.1.0",
     "eslint": "5.5.0",
-    "husky": "0.14.3",
     "jest": "23.6.0",
-    "lint-staged": "6.1.1",
     "prettier": "1.14.2",
-    "semantic-release": "^8.0.0"
+    "@semantic-release/github": "5.0.5",
+    "@semantic-release/npm": "5.0.4",
+    "semantic-release": "15.9.15"
   },
   "peerDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
-    "jest": "^23.0.0"
+    "jest": "^23.0.0",
+    "babel-jest": "^23.0.0"
+  },
+  "keywords": [
+    "immowelt",
+    "jest",
+    "preset",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branch": "master",
+    "analyzeCommits": {
+      "releaseRules": [
+        {
+          "type": "BREAKING",
+          "release": "major"
+        },
+        {
+          "type": "FEATURE",
+          "release": "minor"
+        },
+        {
+          "type": "BUGFIX",
+          "release": "patch"
+        },
+        {
+          "type": "SECURITY",
+          "release": "patch"
+        }
+      ]
+    }
   },
   "jest": {
     "preset": "@immowelt/jest-preset-node",
     "coveragePathIgnorePatterns": [
       "src/setupFiles/*"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ImmoweltGroup/jest-preset-react.git"
-  },
-  "release": {
-    "analyzeCommits": "@inkdpixels/commit-analyzer",
-    "generateNotes": "@inkdpixels/release-notes-generator"
-  },
-  "dependencies": {
-    "babel-jest": "^22.0.0"
   }
 }
