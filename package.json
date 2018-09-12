@@ -17,7 +17,8 @@
     "release": "semantic-release"
   },
   "files": [
-    "jest-preset.json"
+    "jest-preset.json",
+    "src"
   ],
   "engines": {
     "node": ">=8.11.4",
