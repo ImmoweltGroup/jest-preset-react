@@ -37,6 +37,7 @@
   "peerDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
+    "identity-obj-proxy": "3.0.0",
     "jest": "^23.0.0",
     "babel-jest": "^23.0.0"
   },

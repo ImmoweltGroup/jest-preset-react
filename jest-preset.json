@@ -24,6 +24,7 @@
   },
   "moduleFileExtensions": ["js", "json"],
   "moduleNameMapper": {
-    "^react-native$": "react-native-web"
+    "^react-native$": "react-native-web",
+    "\\.(css|styl|less|sass|scss)$": "identity-obj-proxy"
   }
 }
