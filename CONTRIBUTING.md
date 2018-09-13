@@ -25,6 +25,7 @@ All commits must contain a prefix of one of the following values, e.g.
 | `BREAKING`    | Breaking change | Major         |
 | `FEATURE`     | Feature         | Minor         |
 | `BUGFIX`      | Bugfix          | Patch         |
+| `SECURITY`    | Security patch  | Patch         |
 
 ## Submitting Changes
 
