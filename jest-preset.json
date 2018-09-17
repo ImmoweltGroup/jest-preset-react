@@ -1,5 +1,7 @@
 {
-  "collectCoverageFrom": ["src/**/*.js"],
+  "collectCoverageFrom": [
+    "**/*/*.{js,jsx}"
+  ],
   "coverageThreshold": {
     "global": {
       "branches": 70,
@@ -11,7 +13,7 @@
   "setupFiles": [
     "<rootDir>/node_modules/@immowelt/jest-preset-react/src/setupFiles/enzyme.js"
   ],
-  "testMatch": ["<rootDir>/src/**/?(*.)spec.js"],
+  "testMatch": ["<rootDir>/**/?(*.)spec.{js,jsx}"],
   "transformIgnorePatterns": ["node_modules/(?!@immowelt)"],
   "testEnvironment": "node",
   "testURL": "http://localhost",
