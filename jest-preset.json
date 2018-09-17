@@ -1,6 +1,9 @@
 {
   "collectCoverageFrom": [
-    "**/*/*.{js,jsx}"
+    "**/src/*.{js,jsx}"
+    "**/config/*.{js,jsx}",
+    "**/webpack/*.{js,jsx}",
+    "**/static/*.{js,jsx}"
   ],
   "coverageThreshold": {
     "global": {
@@ -28,5 +31,12 @@
   "moduleNameMapper": {
     "^react-native$": "react-native-web",
     "\\.(css|styl|less|sass|scss)$": "identity-obj-proxy"
-  }
+  },
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/build/",
+    "/coverage/",
+    "/dist/",
+    "/bin/"
+  ]
 }
