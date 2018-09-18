@@ -1,9 +1,9 @@
 {
   "collectCoverageFrom": [
-    "**/src/*.{js,jsx}",
-    "**/config/*.{js,jsx}",
-    "**/webpack/*.{js,jsx}",
-    "**/static/*.{js,jsx}"
+    "**/src/**/*.{js,jsx}",
+    "**/config/**/*.{js,jsx}",
+    "**/webpack/**/*.{js,jsx}",
+    "**/static/**/*.{js,jsx}"
   ],
   "coverageThreshold": {
     "global": {
