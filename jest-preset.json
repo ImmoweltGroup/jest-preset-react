@@ -18,7 +18,7 @@
   ],
   "testMatch": ["<rootDir>/**/?(*.)spec.{js,jsx}"],
   "transformIgnorePatterns": ["node_modules/(?!@immowelt)"],
-  "testEnvironment": "node",
+  "testEnvironment": "jsdom",
   "testURL": "http://localhost",
   "transform": {
     "^.+\\.js$": "babel-jest",
