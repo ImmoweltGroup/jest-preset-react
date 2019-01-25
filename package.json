@@ -41,7 +41,7 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "jest": "^23.0.0",
-    "babel-jest": "^23.0.0"
+    "babel-jest": "^24.0.0"
   },
   "keywords": [
     "immowelt",
