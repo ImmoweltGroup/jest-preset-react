@@ -34,7 +34,7 @@
     "jest": "23.6.0",
     "prettier": "1.17.0",
     "@semantic-release/github": "5.2.10",
-    "@semantic-release/npm": "5.1.4",
+    "@semantic-release/npm": "5.1.7",
     "semantic-release": "15.9.15"
   },
   "peerDependencies": {
