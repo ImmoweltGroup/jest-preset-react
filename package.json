@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@immowelt/eslint-config-immowelt-react": "2.1.1",
-    "@immowelt/jest-preset-node": "1.1.1",
+    "@immowelt/jest-preset-node": "2.1.0",
     "eslint": "5.15.1",
     "jest": "23.6.0",
     "prettier": "1.19.1",
