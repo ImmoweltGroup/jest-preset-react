@@ -17,7 +17,7 @@
     "<rootDir>/node_modules/@immowelt/jest-preset-react/src/setupFiles/enzyme.js"
   ],
   "testMatch": ["<rootDir>/**/?(*.)spec.{js,jsx}"],
-  "transformIgnorePatterns": ["node_modules/(?!@immowelt)"],
+  "transformIgnorePatterns": ["node_modules/(?!(@immowelt|@smartdesign))"],
   "testEnvironment": "jsdom",
   "testURL": "http://localhost",
   "transform": {
