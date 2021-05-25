@@ -43,7 +43,7 @@
     "semantic-release": "16.0.2"
   },
   "peerDependencies": {
-    "babel-jest": "23.x || 24.x",
+    "babel-jest": "27.x",
     "enzyme": "3.x",
     "enzyme-adapter-react-16": "1.x",
     "jest": "23.x || 24.x"
