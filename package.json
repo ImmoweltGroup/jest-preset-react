@@ -37,7 +37,7 @@
     "eslint": "6.8.0",
     "eslint-plugin-compat": "3.9.0",
     "eslint-plugin-flowtype": "4.7.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.27.5",
     "jest": "24.9.0",
     "prettier": "1.19.1",
     "semantic-release": "16.0.2"
